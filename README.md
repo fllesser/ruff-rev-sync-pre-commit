@@ -17,8 +17,8 @@ Add this hook to your `.pre-commit-config.yaml`. It should run *before* the main
 
 ```yaml
 repos:
-  - repo: https://github.com/lesfreire/ruff-rev-sync-pre-commit
-    rev: v1.0.0  # Use the latest tag
+  - repo: https://github.com/fllesser/ruff-rev-sync-pre-commit
+    rev: v1.0.0
     hooks:
       - id: ruff-rev-sync
 ```
